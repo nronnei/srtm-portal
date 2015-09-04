@@ -1,0 +1,45 @@
+<html>
+<head>
+<meta charset=utf-8 />
+<title>A simple map</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<link href='https://api.tiles.mapbox.com/mapbox.js/v2.2.1/mapbox.css' rel='stylesheet' />
+<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.indigo-pink.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.4/leaflet.fullscreen.css' rel='stylesheet'>
+<link href="./_css/example.css" rel="stylesheet">
+
+<style>
+  #map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+  }
+
+  .leaflet-bar-mdl.leaflet-control {
+    margin: 8px 16px 8px 16px;
+  }
+  .leaflet-bar-mdl.leaflet-control button {
+    margin-bottom: 16px;
+    display: block;
+  }
+  @media (min-width: 840px) {
+    .leaflet-bar-mdl.leaflet-control {
+      margin: 24px 24px 0 24px;
+    }
+  }
+
+</style>
+</head>
+<body>
+<div id='map'></div>
+<script src='https://api.tiles.mapbox.com/mapbox.js/v2.2.1/mapbox.js'></script>
+<script src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
+<script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.4/Leaflet.fullscreen.min.js'></script>
+<script src="_js/example.js"></script>
+
+</body>
+</html>
