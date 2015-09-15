@@ -14,9 +14,9 @@ var sat = L.tileLayer(mbUrl, {id: 'mapbox.satellite', attribution: mbAttr});
 var outdoors = L.tileLayer(mbUrl, {id: 'mapbox.outdoors', attribution: mbAttr});
 var emerald = L.tileLayer(mbUrl, {id: 'mapbox.emerald', attribution: mbAttr});
 // Custom layers
-var dem = L.tileLayer('http://192.168.2.10:8080/dem/{z}/{x}/{y}/dem.png');
-var hillshade = L.tileLayer('http://192.168.2.10:8080/hillshade/{z}/{x}/{y}/shade.png');
-var slope = L.tileLayer('http://192.168.2.10:8080/slope/{z}/{x}/{y}/slope.png');
+var dem = L.tileLayer('http://35.8.15.45:8080/dem/{z}/{x}/{y}/dem.png');
+var hillshade = L.tileLayer('http://35.8.15.45:8080/hillshade/{z}/{x}/{y}/shade.png');
+var slope = L.tileLayer('http://35.8.15.45:8080/slope/{z}/{x}/{y}/slope.png');
 
 
 ////

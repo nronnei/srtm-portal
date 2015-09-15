@@ -1,4 +1,4 @@
-{
+var graticle = {
 "type": "FeatureCollection",
                                                                                 
 "features": [
@@ -80,4 +80,4 @@
 { "type": "Feature", "properties": { "tilename": "n42w075" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -75.0, 42.0 ], [ -75.0, 43.0 ], [ -74.0, 43.0 ], [ -74.0, 42.0 ], [ -75.0, 42.0 ] ] ] } },
 { "type": "Feature", "properties": { "tilename": "n42w074" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -74.0, 42.0 ], [ -74.0, 43.0 ], [ -73.0, 43.0 ], [ -73.0, 42.0 ], [ -74.0, 42.0 ] ] ] } }
 ]
-}
+};
